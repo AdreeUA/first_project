@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+}
+.paggination{
+    margin: 0 auto;
+    padding: 0;
+    font: 22px Aria;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+li a{
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #a23cd0;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+.dotted a{
+    border:none;
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+.active a{
+    background: #a13bcf;
+    border-color: #7c12bc;
+    color: #fff;
+}
+.first a,
+.prev a,
+.next a,
+.last a{
+    border: none;
+}
